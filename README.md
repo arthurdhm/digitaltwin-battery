@@ -73,7 +73,7 @@ Pour utiliser ce projet, vous devez d'abord créer un environnement virtuel et i
    ```bash
    python .\app.py
 
-7. In the new terminal, launch Steamlit App in new terminal 
+7. In the new terminal, launch Steamlit App
    ```bash
    python -m streamlit run .\digitaltwin-battery\IHM.py
 
