@@ -65,6 +65,10 @@ Pour utiliser ce projet, vous devez d'abord créer un environnement virtuel et i
    ```bash
    pip install -r requirements.txt
 
-5. Launch API App && steamlit app
+5. Launch API App 
    ```bash
-   python .\app.py; python -m streamlit run .\IHM.py
+   python .\app.py
+
+6. Launch Steamlit App in new terminal 
+   ```bash
+   python -m streamlit run .\IHM.py
