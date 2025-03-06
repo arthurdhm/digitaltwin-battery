@@ -53,22 +53,26 @@ Pour utiliser ce projet, vous devez d'abord créer un environnement virtuel et i
    ```bash
    git clone https://github.com/arthurdhm/digitaltwin-battery.git
 
-2. Créez un environnement virtuel :
+2. Enter in the folder
+   ```bash
+   cd digitaltwin-battery
+
+3. Créez un environnement virtuel :
    ```bash
    python -m venv venv
    
-3. Activer env virtuel :
+4. Activer env virtuel :
    ```bash
    .\venv\Scripts\activate
    
-4. Install dépendances
+5. Install dépendances
    ```bash
    pip install -r requirements.txt
 
-5. Launch API App 
+6. Launch API App 
    ```bash
    python .\app.py
 
-6. Launch Steamlit App in new terminal 
+7. Launch Steamlit App in new terminal 
    ```bash
    python -m streamlit run .\IHM.py
