@@ -73,9 +73,9 @@ Pour utiliser ce projet, vous devez d'abord créer un environnement virtuel et i
    ```bash
    python .\app.py
 
-7. Launch Steamlit App in new terminal 
+7. In the new terminal, launch Steamlit App in new terminal 
    ```bash
-   python -m streamlit run .\IHM.py
+   python -m streamlit run .\digitaltwin-battery\IHM.py
 
 8. Open IHM strealit-app 
 `http://localhost:8501`
